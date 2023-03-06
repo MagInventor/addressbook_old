@@ -6,5 +6,6 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    //
+    $users = AddressBook::all();
+    return view('people', compact('users'));
 }
