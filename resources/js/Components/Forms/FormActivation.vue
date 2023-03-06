@@ -10,7 +10,7 @@
                 <div class="modal-body p-5 pt-0">
                     <form class="">
                         <div class="form-floating mb-3 bt-hide bt-reg">
-                             <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Name">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Name">
                             <label for="floatingPassword">Name</label>
                         </div>
                         <div class="form-floating mb-3">
@@ -49,7 +49,7 @@
                     </form>
                 </div>
             </div>
-          </div>
+        </div>
     </div>
 </template>
 
