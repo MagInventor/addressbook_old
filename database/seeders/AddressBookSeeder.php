@@ -13,5 +13,6 @@ class AddressBookSeeder extends Seeder
     public function run(): void
     {
         factory(AddressBook::class, 100)->create();
+        // \App\Models\PhoneBook::factory()->count(100)->create();
     }
 }

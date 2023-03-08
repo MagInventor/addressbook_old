@@ -21,8 +21,8 @@ class AddressBookFactory extends Factory
             'email' => $faker->email,
             'phone' => $faker->el64PhoneNumber,
             'address' => $faker->address,
-            'created_at'=>$faker->dateTime(),
-            'update_at'=>$faker->dateTime(),
+            // 'created_at'=>$faker->dateTime(),
+            // 'update_at'=>$faker->dateTime(),
         ];
     }
 }
